@@ -33,7 +33,7 @@ struct ContentView: View {
                 .resizable()
                 .ignoresSafeArea()
             
-            VStack {
+            VStack(spacing: 20) {
                 Text("Time: \(timeRemaining)")
                     .font(.largeTitle)
                     .foregroundStyle(.white)
